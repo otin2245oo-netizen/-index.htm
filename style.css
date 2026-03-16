@@ -1,17 +1,13 @@
-/* ส่วนที่ 1: การตกแต่งหน้าเว็บ (8 คะแนน) */
-
-/* 1. เปลี่ยนสีพื้นหลังและตั้งค่าฟอนต์ */
 body {
-    background-color: #eef2f3; /* สีพื้นหลัง [cite: 22] */
+    background-color: #eef2f3; 
     font-family: 'Sarabun', sans-serif;
-    color: #333333; /* เปลี่ยนสีตัวอักษร [cite: 23] */
+    color: #333333; 
     display: flex;
     justify-content: center;
     padding: 40px;
     line-height: 1.8;
 }
 
-/* 2. ปรับแต่ง Container หลัก */
 .web-container {
     background-color: #ffffff;
     max-width: 700px;
@@ -22,14 +18,14 @@ body {
     text-align: center;
 }
 
-/* 3. ปรับขนาดหัวข้อ (Heading) */
+
 h1 {
     color: #1a73e8;
-    font-size: 2.5rem; /* ปรับขนาดหัวข้อ [cite: 25] */
+    font-size: 2.5rem; 
     margin-bottom: 20px;
 }
 
-/* 4. ตกแต่งรูปภาพ */
+
 img {
     width: 100%;
     height: auto;
@@ -38,14 +34,12 @@ img {
     border: 2px solid #ddd;
 }
 
-/* 5. ตกแต่งรายการ (List) */
 ul, ol {
     text-align: left;
     display: inline-block;
     margin-bottom: 20px;
 }
 
-/* 6. ตกแต่งปุ่ม (สำหรับส่วน JavaScript) */
 button {
     background-color: #1a73e8;
     color: white;
@@ -63,7 +57,6 @@ button:hover {
     transform: translateY(-2px);
 }
 
-/* 7. ตกแต่งลิงก์ภายนอก */
 a {
     color: #d93025;
     text-decoration: none;
